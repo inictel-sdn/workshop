@@ -2,7 +2,6 @@
 import requests
 
 if __name__ == '__main__':
- #topology_url = 'http://localhost:8181/restconf/operational/network-topology:network-topology'
  url = 'http://localhost:8181/restconf/operational/opendaylight-inventory:nodes/'
 
  response = requests.get(url,auth=('admin','admin'))
